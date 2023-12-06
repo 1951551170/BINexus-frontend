@@ -3,7 +3,7 @@ import { DefaultFooter } from '@ant-design/pro-components';
 import '@umijs/max';
 import React from 'react';
 const Footer: React.FC = () => {
-  const defaultMessage = '蚂蚁集团体验技术部出品';
+  const defaultMessage = '小园出品';
   const currentYear = new Date().getFullYear();
   return (
     <DefaultFooter
@@ -13,9 +13,9 @@ const Footer: React.FC = () => {
       copyright={`${currentYear} ${defaultMessage}`}
       links={[
         {
-          key: 'BINexus',
-          title: 'BINexus',
-          href: 'https://pro.ant.design',
+          key: 'BINexus-frontend',
+          title: 'BINexus-frontend',
+          href: 'https://github.com/1951551170/BINexus-frontend',
           blankTarget: true,
         },
         {
@@ -25,9 +25,9 @@ const Footer: React.FC = () => {
           blankTarget: true,
         },
         {
-          key: 'BINexus',
-          title: 'BINexus',
-          href: 'https://ant.design',
+          key: 'BINexus-backend',
+          title: 'BINexus-backend',
+          href: 'https://github.com/1951551170/BINexus-backend',
           blankTarget: true,
         },
       ]}
