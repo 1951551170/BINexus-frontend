@@ -6,6 +6,7 @@ export default [
   },
   { path: '/', redirect: '/add_chart' },
   { path: '/add_Chart', name: '智能分析', icon: 'barChart', component: './AddChart' },
+  { path: '/add_Chart_async', name: '智能分析（异步）', icon: 'barChart', component: './AddChartAsync' },
   { path: '/my_Chart', name: '我的图表', icon: 'pieChart', component: './MyChart' },
   {
     path: '/admin',
